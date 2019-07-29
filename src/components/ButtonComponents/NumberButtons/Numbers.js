@@ -12,7 +12,7 @@ const Numbers = () => {
   const [numberState] = useState(numbers);
 
   return (
-    <div>
+    <div className='num'>
       
 
       {// Works well with numbers,  not so much with characters. Uggghhh.....

@@ -4,24 +4,59 @@
 
 }
 
+.specialB {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
 .Op {
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+ 
+
+}
+
+.num {    
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.numberB {
+
+    background: #3281f0;
+
+}
+
+.sb {
+
+    background: #3281f0;
+
+}
+
+.OpButton {
+
+    background: #099aad;
 
 }
 
 .container {
-    margin-top: 10px;     
-    border: #111111 solid 1px;
-    width: 265px;  
-    background-color: #e3e9d2;
 
+    border-radius: 10px;
+    margin-top: 10px;     
+    border: #111111 solid 3px;
+    width: 350px;  
+    background-color:#bb1333;
+ 
 }
 
 .CalcDiplay {
 
-    padding: 2px 0px 2px 1px;
+    padding: 2px 5px 2px 1px;
     display: table-cell;
     vertical-align: right;
     width: 255px;
@@ -29,8 +64,11 @@
     border: 1px black solid;
     text-align: right;
     margin: 0 auto;
-    border-radius: 10px;
-    background-color: #f1f3ec
+    border-radius: 20px;
+    background-color: #1e1f1e;
+    color: azure;
+       
+
     }
 
     * {
@@ -60,8 +98,8 @@
         padding: 1rem 1rem 1rem 1rem;
         margin: 1px 1px 1px 1px;
         text-decoration: none;
-        background: #d0cdfa;
-        color: #111111;
+       
+        color: white;
         font-family: inherit;
         font-size: 1.6rem;
         cursor: pointer;
@@ -74,7 +112,8 @@
       
       button:hover,
       button:focus {
-        background: #3281f0;
+        background: #d0cdfa;
+        
       }
       
       button:focus {
