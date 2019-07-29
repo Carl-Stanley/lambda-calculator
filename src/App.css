@@ -1,14 +1,19 @@
 .App {
 
     display: flex;
+    justify-content: center; 
+    align-items: center;
     width: 95%;
 
 }
 
 .specialB {
 
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+
 
 }
 
@@ -30,46 +35,57 @@
 .numberB {
 
     background: #134c9c;
-
-}
+    border-radius: 40px 40px 40px 40px;
+    padding: 1rem 1rem 1rem 1rem;
+        margin: 1px 1px 1px 1px;
+    
+    }
 
 .sb {
 
     background: #134c9c;
-
+    border-radius: 40px 40px 40px 40px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1px 1px 1px 1px;
 }
 
 .OpButton {
 
     background: #099aad;
+    border-radius: 40px 40px 40px 40px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1px 1px 1px 1px;
 
 }
 
 .container {
-
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
     border-radius: 10px;
     margin-top: 10px;     
     border: #111111 solid 3px;
     width: 450px;  
     background-color:#bb1333;
     height: 650px;
+
 }
 
 .CalcDiplay {
 
-    padding: 2px 5px 2px 20px;
+    padding: 2px 5px 10px 20px;
     display: table-cell;
     vertical-align: right;
     width: 350px;
     height: 70px;
     border: 1px black solid;
     text-align: right;
-    margin: 0 auto;
+    margin-bottom: 10px;
     border-radius: 20px;
     background-color: #1e1f1e;
     color: azure;
-    font-size: 3rem;
-       
+    font-size: 3.5rem;
+      
 
     }
 
@@ -92,21 +108,18 @@
       }
       
       button {
-        display: inline-block;
+        
+        
         border: 1px black solid;
-        padding: 1rem 1rem 1rem 1rem;
-        margin: 1px 1px 1px 1px;
-        text-decoration: none;
+        
        
         color: white;
         font-family: inherit;
         font-size: 1.6rem;
-        cursor: pointer;
+        cursor: pointer; 
         text-align: center;
-        transition: background 250ms ease-in-out, transform 150ms ease;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        border-radius: 40px 40px 40px 40px;
+        
+        
       }
       
       button:hover,
