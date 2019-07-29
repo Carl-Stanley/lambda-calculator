@@ -1,3 +1,15 @@
+.App {
+
+    display: flex;
+
+}
+
+.Op {
+
+    display: flex;
+    flex-direction: column;
+
+}
 
 .container {
     margin-top: 10px;     

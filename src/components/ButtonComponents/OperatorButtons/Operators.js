@@ -8,7 +8,7 @@ const Operators = () => {
   // STEP 2 - add the imported data to state
   const [operatorState] = useState(operators);
   return (
-    <div>
+    <div className="Op">
 
        { 
          
