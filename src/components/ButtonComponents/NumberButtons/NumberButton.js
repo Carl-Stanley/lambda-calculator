@@ -4,7 +4,7 @@ const NumberButton = (props) => {
   
   
   
-
+  // If this is the zero button assign a classname of zeroB
   if((numbers === "0") ) {
 
   return (
@@ -13,7 +13,7 @@ const NumberButton = (props) => {
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </>
   );
- } else {
+ } else { // If this is not the zero button, assign numberB as the classname
 
   return (
     <>
