@@ -5,12 +5,13 @@
     align-items: center;
     width: max-content;
     height: 350px;
-
+    align-content: space-around;
+    justify-content: space-between;
 }
 
 .specialB {
 
-    width: 200px;
+    width: 250px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -21,7 +22,7 @@
 
 .Op {
 
-    width: 67.33px;
+    width: 83.33px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -40,7 +41,7 @@
 }
 
 .numberB {
-    width: auto;
+    width: 65px;
     background: #134c9c;
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
@@ -72,11 +73,11 @@
     align-items: center;
     border-radius: 10px;
     margin-top: 10px;     
-    border: #111111 solid 3px;
-    width: 350px; 
+    border: #111111 solid 2rem;
+    width: 400px; 
     background-color:#bb1333;
     height: 650px;
-
+     
 }
 
 .CalcDiplay {
@@ -84,7 +85,7 @@
     padding: 2px 5px 10px 20px;
     display: table-cell;
     vertical-align: center;
-    width: 250px;
+    width: 325px;
     height: 70px;
     border: .25rem black solid;
     text-align: right;
