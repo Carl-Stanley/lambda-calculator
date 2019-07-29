@@ -20,7 +20,9 @@ const Operators = () => {
             
        
        */
-       operatorState.map((theOperator, objIndex) =>(<OperatorButton operators={theOperator.char} value ={theOperator.value} key={objIndex} /> ))
+      operatorState.map((theOperator, objIndex) =>(<OperatorButton operators={theOperator.char} key={objIndex} /> ))
+
+      //operatorState.map((theOperator, objIndex) =>(<OperatorButton operators={theOperator} key={objIndex} /> ))
       
       }
 

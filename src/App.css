@@ -1,6 +1,7 @@
 .App {
 
     display: flex;
+    width: 95%;
 
 }
 
@@ -49,18 +50,18 @@
     border-radius: 10px;
     margin-top: 10px;     
     border: #111111 solid 3px;
-    width: 350px;  
+    width: 450px;  
     background-color:#bb1333;
  
 }
 
 .CalcDiplay {
 
-    padding: 2px 5px 2px 1px;
+    padding: 2px 5px 2px 20px;
     display: table-cell;
     vertical-align: right;
-    width: 255px;
-    height: 50px;
+    width: 350px;
+    height: 70px;
     border: 1px black solid;
     text-align: right;
     margin: 0 auto;
@@ -71,10 +72,7 @@
 
     }
 
-    * {
-        margin: 0;
-        padding: 0;
-      }
+    
       html {
         font-size: 62.5%;
       }
@@ -128,6 +126,7 @@
       .logo-container {
 
         background-color:#bb1333;
-
-
+        width: 95%; 
+        padding-left: 20px;  
+        padding-top: 20px;  
       }
