@@ -138,16 +138,12 @@
       button:focus {
         background: #a09bdd;
         
-      }
-      
-     
-      
-     
+      }     
 
       .logo-container {
 
         
-        width: 95%; 
+        width: 95%;
         padding-left: 20px;  
         padding-top: 20px;  
       }
