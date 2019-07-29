@@ -41,29 +41,29 @@
 }
 
 .numberB {
-    width: 65px;
+    width: 55px;
     background: #134c9c;
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 1px 1px 1px 1px;
+    margin: 2.25px 2.25px 2.25px 2.25px;
     align-content: space-around;
     justify-content: space-between;
     }
 
 .sb {
-
+    width: 55px;
     background: #134c9c;
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 1px 1px 1px 1px;
+    margin: 2.25px 2.25px 2.25px 2.25px;
 }
-
 .OpButton {
-
+    width: 55px;
     background: #099aad;
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 1px 1px 1px 1px;
+    margin: 2.25px 2.25px 2.25px 2.25px;
+
 
 }
 
@@ -76,7 +76,7 @@
     border: #111111 solid 2rem;
     width: 400px; 
     background-color:#bb1333;
-    height: 650px;
+    height: 550px;
      
 }
 
