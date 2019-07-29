@@ -10,7 +10,7 @@
 
 .specialB {
 
-    width: 200px;
+    width: 250px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -21,11 +21,12 @@
 
 .Op {
 
-    width: 67.33px;
+    width: 83.33px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
- 
+    align-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -33,7 +34,9 @@
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    align-content: space-around;
+    justify-content: space-between;
+
 }
 
 .numberB {
@@ -41,8 +44,9 @@
     background: #134c9c;
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
-        margin: 1px 1px 1px 1px;
-    
+    margin: 1px 1px 1px 1px;
+    align-content: space-around;
+    justify-content: space-between;
     }
 
 .sb {
@@ -113,8 +117,7 @@
       
       button {        
         
-        border: .10rem black solid;
-            
+        border: .10rem black solid;            
         color: white;
         font-family: inherit;
         font-size: 1.6rem;
@@ -130,10 +133,7 @@
         
       }
       
-      button:focus {
-        outline: 1px solid #fff;
-        outline-offset: -4px;
-      }
+     
       
       button:active {
         transform: scale(0.99);
