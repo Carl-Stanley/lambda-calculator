@@ -13,14 +13,17 @@ const Numbers = () => {
 
   return (
     <div>
-      {
-        numberState.map((number, index) => (
-          <NumberButton numbers={number} key={index} />))
-      }
+      
 
-      {/* STEP 3 - Use .map() to iterate over your array data and return a button
+      {// Works well with numbers,  not so much with characters. Uggghhh.....
+          
+       numberState.map((number, objIndex) => (<NumberButton numbers={number} key={objIndex} />))
+
+       /* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
-       it any props needed by the child component*/}
+       it any props needed by the child component*/
+       
+       }
 
     </div>
   );
