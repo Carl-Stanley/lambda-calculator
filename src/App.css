@@ -28,7 +28,7 @@
     grid-template-columns: repeat(1, 1fr);
     align-content: space-around;
     justify-content: space-between;
-
+    
 }
 
 .num {    
@@ -42,44 +42,45 @@
 
 .numberB {
     width: 55px;
-    background: #134c9c;
+   
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
     margin: 2.25px 2.25px 2.25px 2.25px;
     align-content: space-around;
     justify-content: space-between;
 
-    
+    background-image: url("./Img/BlueButton.png");
 
     }
 
     .zeroB {
       width: 140px;
-      background: #134c9c;
+      
       border-radius: 40px 40px 40px 40px;
       padding: 1rem 1rem 1rem 1rem;
       margin: 2.25px 2.25px 2.25px 2.25px;
       align-content: space-around;
       justify-content: space-between;
-      grid-column: 1 / 3;
+      grid-column: 1 / 3;      
+      background-image: url("./Img/BlueButton.png");
       
-  
-      }
+    }
 
 .sb {
     width: 55px;
-    background: #134c9c;
+    
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
     margin: 2.25px 2.25px 2.25px 2.25px;
+    background-image: url("./Img/medBlueButton.png");
 }
 .OpButton {
     width: 55px;
-    background: #099aad;
+    
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
     margin: 2.25px 2.25px 2.25px 2.25px;
-
+    background-image: url("./Img/lightBlueButton.png");
 
 }
 
@@ -90,16 +91,16 @@
     padding: 10px 10px 10px 10px;
     display: table-cell;
     vertical-align: center;
-    width: 325px;
-    height: 70px;
-    border: .25rem black solid;
+    width: 350px;
+    height: 80px;
+    margin-top: 10px;
     text-align: right;
-    margin-bottom: 10px;
+    
     border-radius: 40px;
-    background-color: #1e1f1e;
+    
     color: azure;
     font-size: 4.5rem;
-      
+    background-image: url("./Img/Display.png");  
 
     }
 
@@ -145,7 +146,7 @@
 
       .logo-container {
 
-        background-color:#bb1333;
+        
         width: 95%; 
         padding-left: 20px;  
         padding-top: 20px;  
@@ -156,5 +157,6 @@
         width: 110px;
         height: auto;
         padding-bottom: 5px;
+        margin-left: 15px;
 
       }

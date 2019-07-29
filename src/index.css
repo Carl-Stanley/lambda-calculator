@@ -17,8 +17,7 @@ body {
   margin: 0 auto;
   margin-top: 10px;     
   border: #111111 solid 2rem;
-  width: 400px; 
-  background-color:#bb1333;
-  height: 550px;
-   
+  width: 470px;   
+  height: 710px;
+  background-image: url("./Img/component-calculator2.png"); 
 }
