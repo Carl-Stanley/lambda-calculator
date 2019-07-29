@@ -3,7 +3,7 @@ const NumberButton = (props) => {
   const {numbers} = props;
   return (
     <>
-      <button>{numbers}</button>
+      <button className="numberB">{numbers}</button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </>
   );
