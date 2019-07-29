@@ -29,13 +29,13 @@
 
 .numberB {
 
-    background: #3281f0;
+    background: #134c9c;
 
 }
 
 .sb {
 
-    background: #3281f0;
+    background: #134c9c;
 
 }
 
@@ -52,7 +52,7 @@
     border: #111111 solid 3px;
     width: 450px;  
     background-color:#bb1333;
- 
+    height: 650px;
 }
 
 .CalcDiplay {
@@ -68,6 +68,7 @@
     border-radius: 20px;
     background-color: #1e1f1e;
     color: azure;
+    font-size: 3rem;
        
 
     }
@@ -129,4 +130,12 @@
         width: 95%; 
         padding-left: 20px;  
         padding-top: 20px;  
+      }
+
+      .logo {
+
+        width: 110px;
+        height: auto;
+        padding-bottom: 5px;
+
       }
