@@ -6,7 +6,7 @@ const SpecialButton = (props) => {
   return (
     <> 
     
-      <button className="sb">{specials}</button>
+      <button className="sb" data-spec={specials}>{specials}</button>
 
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     
