@@ -11,7 +11,7 @@ const NumberButton = (props) => {
 
   return (
     <>
-      <button className="zeroB" data-num={numbers} onClick={alert('test')}>{numbers}</button>
+      <button className="zeroB" data-num={numbers} onClick={alert()}>{numbers}</button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </>
   );
