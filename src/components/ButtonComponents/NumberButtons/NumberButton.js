@@ -1,10 +1,10 @@
 
-import React, {Component} from 'react';
+import React, {useState} from 'react';
 
 const NumberButton = (props) => {
   const {numbers} = props;
   
-  
+  let [display,newDisplay] = useState(0);
   
   // If this is the zero button assign a classname of zeroB
   if((numbers === "0") ) {
@@ -19,7 +19,7 @@ const NumberButton = (props) => {
 
   return (
     <>
-      <button className="numberB" data-num={numbers}>{numbers}</button>
+      <button className="numberB" data-num={numbers} onClick={()=>newDisplay({display})}>{numbers}</button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </>
   );
