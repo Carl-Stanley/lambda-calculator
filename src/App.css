@@ -16,8 +16,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-
-
 }
 
 .Op {
@@ -41,11 +39,11 @@
 }
 
 .numberB {
-    width: 55px;
-   
+    width: 68px;
+    height: 68px;
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 2.25px 2.25px 2.25px 2.25px;
+    margin: 12.5px 12.5px 12.5px 12.5px;
     align-content: space-around;
     justify-content: space-between;
 
@@ -55,10 +53,10 @@
 
     .zeroB {
       width: 140px;
-      
+      height: 68px;      
       border-radius: 40px 40px 40px 40px;
       padding: 1rem 1rem 1rem 1rem;
-      margin: 2.25px 2.25px 2.25px 2.25px;
+      margin: 12.5px 12.5px 12.5px 12.5px;
       align-content: space-around;
       justify-content: space-between;
       grid-column: 1 / 3;      
@@ -67,19 +65,21 @@
     }
 
 .sb {
-    width: 55px;
+  width: 68px;
+    height: 68px;
     
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 2.25px 2.25px 2.25px 2.25px;
+    margin: 12.5px 12.5px 12.5px 12.5px;
     background-image: url("./Img/medBlueButton.png");
 }
 .OpButton {
-    width: 55px;
+  width: 68px;
+  height: 68px;
     
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 2.25px 2.25px 2.25px 2.25px;
+    margin: 12.5px 12.5px 12.5px 12.5px;
     background-image: url("./Img/lightBlueButton.png");
 
 }
