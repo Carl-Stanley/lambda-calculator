@@ -1,0 +1,126 @@
+.App {
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: max-content;
+    height: auto;
+    align-content: space-around;
+    justify-content: space-between;
+}
+button {        
+        
+  border: .10rem black solid;            
+  color: white;
+  font-family: inherit;
+  font-size: 2.5rem;
+  cursor: pointer; 
+  text-align: center;
+  outline: 0;
+  
+}
+button:hover,
+button:focus {
+  background: #a09bdd;
+  
+}
+.specialB {
+
+    width: 250px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.Op {
+
+    width: 83.33px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: space-around;
+    justify-content: space-between;
+    
+}
+.num {    
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: space-around;
+    justify-content: space-between;
+
+}
+.numberB {
+    width: 75px;
+    height: 75px;
+    border-radius: 40px 40px 40px 40px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 12.5px 12.5px 12.5px 12.5px;
+    align-content: space-around;
+    justify-content: space-between;
+
+    background-image: url("./Img/BlueButton.png");
+
+    }
+    .zeroB {
+      width: 170px;
+      height: 75px;      
+      border-radius: 40px 40px 40px 40px;
+      padding: 1rem 1rem 1rem 1rem;
+      margin: 12.5px 12.5px 12.5px 12.5px;
+      align-content: space-around;
+      justify-content: space-between;
+      grid-column: 1 / 3;      
+      background-image: url("./Img/BlueButton.png");
+      
+    }
+.sb {
+  width: 75px;
+    height: 75px;
+    
+    border-radius: 40px 40px 40px 40px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 12.5px 12.5px 12.5px 12.5px;
+    background-image: url("./Img/BlueButton.png");
+}
+.OpButton {
+  width: 75px;
+    height: 75px;
+    
+    border-radius: 40px 40px 40px 40px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 12.5px 12.5px 12.5px 12.5px;
+    background-image: url("./Img/lightBlueButton.png");
+
+}
+.CalcDiplay {
+
+    padding: 10px 10px 10px 10px;
+    display: table-cell;
+    vertical-align: center;
+    width: 350px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: right;    
+    border-radius: 40px;
+    
+    color: azure;
+    font-size: 4rem;
+    background-image: url("./Img/Display.png");  
+
+    }
+      .logo-container {
+
+        width: 95%;
+        padding-left: 20px;  
+        padding-top: 28px;  
+      }
+      .logo {
+
+        width: 110px;
+        height: auto;
+        padding-bottom: 5px;
+        margin-left: 20px;
+
+      }
