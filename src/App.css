@@ -51,8 +51,8 @@ button:focus {
 
 }
 .numberB {
-    width: 68px;
-    height: 68px;
+  width: 75px;
+  height: 75px;
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
     margin: 12.5px 12.5px 12.5px 12.5px;
@@ -64,7 +64,11 @@ button:focus {
     }
     .zeroB {
       width: 165px;
+<<<<<<< HEAD
       height: 68px;      
+=======
+      height: 75px;      
+>>>>>>> 81d9dcf7c1c4b88c182f72e01a0dcf0c8203ba86
       border-radius: 40px 40px 40px 40px;
       padding: 1rem 1rem 1rem 1rem;
       margin: 12.5px 12.5px 12.5px 12.5px;
@@ -75,17 +79,17 @@ button:focus {
       
     }
 .sb {
-  width: 68px;
-    height: 68px;
+  width: 75px;
+    height: 75px;
     
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
     margin: 12.5px 12.5px 12.5px 12.5px;
-    background-image: url("./Img/medBlueButton.png");
+    background-image: url("./Img/BlueButton.png");
 }
 .OpButton {
-  width: 68px;
-  height: 68px;
+  width: 75px;
+    height: 75px;
     
     border-radius: 40px 40px 40px 40px;
     padding: 1rem 1rem 1rem 1rem;
